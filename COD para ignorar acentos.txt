@@ -1,0 +1,3 @@
+import unicodedata
+
+produto = unicodedata.normalize("NFKD", produto).encode("ascii","ignore")
